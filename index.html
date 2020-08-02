@@ -7,10 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- CSS File -->
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <!-- Bootstrap CSS -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!-- sweetalert2 -->
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
   </head>
   <body>
     <div class="container-login">
@@ -36,7 +38,7 @@
                 <input type="password" class="input">
             </div>
           </div>
-          <a href="#" class="esquece-senha">Esqueceu a Senha?</a>
+          <a href="#" class="esquece-senha" onclick="alerta()" >Esqueceu a Senha?</a>
           <input type="submit" class="btn-login" value="Login">
         </form>
       </div>
