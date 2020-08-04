@@ -18,3 +18,13 @@ inputs.forEach(input => {
 	input.addEventListener("focus", addcl);
 	input.addEventListener("blur", remcl);
 });
+
+function alerta(){
+	
+	const { value: email } = Swal.fire({
+	  title: 'Input email address',
+	  input: 'email',
+	  inputPlaceholder: 'Enter your email address'
+	})
+	
+}
