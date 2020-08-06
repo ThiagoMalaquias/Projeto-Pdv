@@ -7,7 +7,6 @@
 
 body {
   background: linear-gradient(to bottom, #4a88bd, #044c7e);
-  height: 100vh;
 }
 
 .container-login {
@@ -170,54 +169,6 @@ form {
 }
 .btn-login:hover {
   background-position: right;
-}
-
-/* PDV */
-.box-content {
-  max-width: 1280px;
-  margin: 50px auto;
-  height: 250px;
-}
-
-.logo {
-  display: inline-block;
-  width: 25%;
-  height: 250px;
-  border: 1px solid #fff;
-  float: left;
-  background-color: #f2f2f2;
-}
-
-.logo img {
-  display: block;
-  width: 75%;
-  margin: 5px auto;
-}
-
-.txt {
-  display: inline-block;
-  width: 75%;
-  height: 250px;
-  float: right;
-  text-align: center;
-  background-color: #f2f2f2;
-}
-
-.txt p,
-strong {
-  line-height: 250px;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 25px;
-  width: 35%;
-  display: inline-block;
-  color: rgb(240, 40, 40);
-}
-
-.main-content {
-  max-width: 1280px;
-  margin: auto;
-  position: relative;
-  top: -48px;
 }
 
 /* Media Queries */
