@@ -1,56 +1,38 @@
-<!doctype html>
-<html lang="pt-Br">
+<!DOCTYPE html>
+<html>
 
 <head>
-  <title>PDV</title>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>PDV</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- CSS File -->
-  <link rel="stylesheet" href="css/style.css">
-  <!-- Bootstrap CSS -->
-  <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<!-- sweetalert2 -->
-  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
-      
+    <!-- CSS File -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <div class="container-login">
-    <div class="login-content">
-      <form action="index.html">
-        <img src="image/profile.svg">
-        <h2 class="title">Bem Vindo</h2>
-        <div class="input-div one">
-          <div class="i">
-            <i class="fas fa-user"></i>
-          </div>
-          <div class="div">
-            <h5>Nome</h5>
-            <input type="text" class="input">
-          </div>
-        </div>
-        <div class="input-div pass">
-          <div class="i">
-            <i class="fas fa-lock"></i>
-          </div>
-          <div class="div">
-            <h5>Senha</h5>
-            <input type="password" class="input">
-          </div>
-          <a href="#" class="esquece-senha" onclick="alerta()" >Esqueceu a Senha?</a>
-          <input type="submit" class="btn-login" value="Login">
-        </form>
-      </div>
+    <div id="container">
+        <header class="box-content">
+            <div class="logo"><img src="image/profile.svg"></div>
+            <div class="txt">
+                <p><strong>Atendente:</strong>&nbsp;&nbsp;&nbsp;Lucas Gomes</p>
+                <p><strong>Caixa:</strong>02</p>
+            </div>
+        </header>
+        <main class="main-content">
+            <article class="logo">
+                <h2 class="title-prod">Nome do Produto</h2>
+            </article>
+
+            <aside class="txt">
+                <h2 class="title-aside">Cupom Fiscal</h2>
+            </aside>
+        </main>
+        <footer class="footer">
+
+        </footer>
     </div>
-  </div>
-
-
-  <script src="https://kit.fontawesome.com/a81368914c.js"></script>
-  <script type="text/javascript" src="js/main.js"></script>
 </body>
 
 </html>
