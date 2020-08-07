@@ -16,7 +16,6 @@ body {
 }
 
 .logo {
-  display: inline-block;
   width: 25%;
   height: 250px;
   border: 1px solid #fff;
@@ -31,7 +30,6 @@ body {
 }
 
 .txt {
-  display: inline-block;
   width: 75%;
   height: 250px;
   float: right;
