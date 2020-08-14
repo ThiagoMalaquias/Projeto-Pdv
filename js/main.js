@@ -20,7 +20,6 @@ inputs.forEach(input => {
 });
 
 function alerta(){
-	
 	const { value: email } = Swal.fire({
 	  title: 'Input email address',
 	  input: 'email',
