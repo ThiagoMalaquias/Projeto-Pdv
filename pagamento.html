@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="pt-Br">
+  <head>
+    <title>PDV</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="css/style-pagamento.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  </head>
+  <body>
+
+      <header class="header">
+          <a href="/">Logo</a>
+          <nav>
+              <ul class="menu">
+                  <li><a href="/"></a>Sobre</li>
+                    <li><a href="/"></a>Produtos</li>
+                  <li><a href="/"></a>Contatos</li>
+              </ul>
+          </nav>
+      </header>
+    <br>
+
+    <main class="container">
+      <section id="finalizar-pagamento"> 
+        <div class="title">
+            Finalizar Venda
+        </div>
+      </section>
+
+      <section id="valores">
+          <div class="row valores">
+            <div class="col-md-7 numeros">
+              <div>
+                <h4>R$ Sub Total</h4>
+                <span>320,00</span>
+              </div>
+              <div>
+                <h4>R$ Desconto  nos Itens</h4>
+                <span>-0,00</span>
+              </div>
+              <div>
+                <h4>R$ Desconto Geral</h4>
+                <span>-30,32</span>
+              </div>
+              <div>
+                <h4>R$ Acréscimo </h4>
+                <span>+0,00</span>
+              </div>
+            </div>
+            <div class="col-md-5 total">
+              <h5>R$ Total a pagar</h5>
+              <h1>R$ 272,88</h1>
+            </div>
+          </div>
+      </section>
+
+      <section id="forma-pagamento">
+        <div class="forma-pagamento">
+          <button class="btn btn-success">  
+              <i class="fa fa-money"></i>
+              Dinheiro
+          </button>
+
+          <button class="btn btn-info">
+            <ion-icon name="card-outline"></ion-icon>
+            Cartão
+          </button>
+
+          <button class="btn btn-dark">
+            Doc. Crédito
+          </button>
+
+          <button class="btn btn-warning">
+            Outros
+          </button>
+        </div>
+
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Seq</th>
+              <th scope="col">Forma de Pagamento</th>
+              <th scope="col">Nº Parc.</th>
+              <th scope="col">Valor</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Cartão de Crédito</td>
+              <td>1</td>
+              <td>R$ 272,88</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="fechamento">
+        <div class="row fechamento">
+          <div class="col-md-3 total-valor">
+            <p>R$ Total a Pagar</p>
+            <h1 style="color: #337ab7">R$ 272,88</h1>
+          </div>
+          <div class="col-md-3 total-valor">
+            <p>R$ Valor Pago</p>
+            <h1 style="color: #3c763c;">R$ 272,88</h1>
+          </div>
+          <div class="col-md-3 total-valor">
+            <p>R$ Saldo a Pagar</p>
+            <h1 style="color:#8a6d3b">R$ 0,00</h1>
+          </div>
+          <div class="col-md-3 total-valor">
+            <p>R$ Troco</p>
+            <h1 style="color:#a94442">R$ 0,00</h1>
+          </div>
+        </div>
+      </section>
+
+      <section id="acoes-finais">
+        <div class="row">
+          <div class="col-md-2">
+            <button class="btn btn-danger">Cancelar</button>
+          </div>
+          <div class="col-md-8">
+            <label for="vendedor" style="display: inline-block;">Vendedor(a):</label>
+            <select class="form-control" id="vendedor" style="display: inline-block; width: 83%;">
+              <option value="1">Thiago Malaquias</option>
+              <option value="2">Robson Mendonça</option>
+              <option value="3">Lucas Gomes</option>
+            </select>
+          </div>
+          <div class="col-md-2" style="text-align:end">
+            <button class="btn btn-primary">Confirmar</button>
+          </div>
+        </div>
+      </section>
+      <br>
+
+    </main>
+
+    <footer></footer>
+
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script> 
+    <script type="text/javascript" src="js/main.js"></script>
+    
+    <!-- sweetalert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+</body>
+</html>
