@@ -1,0 +1,132 @@
+:root{
+  --cor-principal: #4a88bd;
+  --cor-secundario: #044c7e;
+  --cor-gray2: #e4eaec;
+  --cor-gray3: #dde6e9;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+body{
+  background: linear-gradient(to bottom, var(--cor-principal), var(--cor-secundario) );
+}
+
+a{
+  text-decoration: none;
+  color: var(--cor-principal) !important;
+}
+
+/* ==================== menu ==================== */
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 7%;
+  background: var(--white);
+  color: var(--cor-principal) !important;
+  font-size: 1.2rem !important;
+}
+
+.menu{
+  display: flex;
+}
+
+.menu li{
+  margin-left: 10px;
+}
+
+.menu li a{
+  display: block;
+  padding: 10px;
+}
+
+/* ===================== Initial Projeto ===================== */
+
+#finalizar-pagamento .title{
+  background-color: var(--white);
+  padding: 10px;
+  padding-left: 25px;
+  font-size: 15pt;
+  color: var(--cor-secundario);
+}
+
+/* ===================== Valores ===================== */
+#valores .valores{
+  margin: 0px;
+  text-transform: uppercase;
+}
+#valores .valores .numeros{
+  padding: 10px 26px;
+  background-color: var(--cor-gray2);
+}
+
+#valores .valores .numeros div{
+  margin-bottom: 10px;
+}
+
+#valores .valores .numeros h4{
+  display: inline;
+}
+
+#valores .valores .numeros span{
+  float: right;
+  font-size: 1.2rem;
+}
+
+#valores .valores .total{
+  padding: 40px 20px 0px;
+  background-color: var(--cor-gray3);
+  text-align: end;
+}
+
+/* ============= Forma de Pagamento ============ */
+#forma-pagamento{
+  background-color: var(--white);
+}
+
+#forma-pagamento .forma-pagamento{
+  padding: 20px 0px;
+  text-align: center;
+}
+
+#forma-pagamento .forma-pagamento .btn{ 
+  height: 80px;
+  font-size: 20pt;
+  width: 24%;
+}
+
+#forma-pagamento table{
+  text-align: center;
+  margin: 0px;
+  border-bottom:1px solid #dee2e6;
+}
+
+/* ============== fechamento ===============*/
+#fechamento{
+  background-color: var(--white);
+  text-align: center;
+}
+
+#fechamento .fechamento{
+  margin: 0px;
+  text-transform: uppercase;
+}
+
+#fechamento .total-valor{
+  padding: 30px 0px;
+  border:1px solid #dee2e6;
+}
+
+/* ============== Ações Finais ===============*/
+#acoes-finais{
+  background-color: var(--white);
+  padding: 15px;
+}
