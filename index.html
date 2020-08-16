@@ -1,10 +1,18 @@
 <!DOCTYPE html>
 <html>
+
 <head lang="pt-br">
 	<meta charset="utf-8">
 	<title>Pdv Online</title>
+	<!-- Bootstrap CSS -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<!-- CSS File -->
 	<link rel="stylesheet" type="text/css" href="css/estilo.css" />
+    <link rel="stylesheet" href="css/style-pagamento.css">
+
 </head>
+
 <body>
 	<div class="container">
 		<div class="box-fluid">
@@ -12,8 +20,12 @@
 				<div class="box-logo">
 					<img src="image/profile.svg" alt="logo">
 				</div>
-				<div class="box-atendente"><h2>Atendente: Lucas Gomes</h2></div>
-				<div class="box-caixa"><h2>Caixa: 02</h2></div>
+				<div class="box-atendente">
+					<h2>Atendente: Lucas Gomes</h2>
+				</div>
+				<div class="box-caixa">
+					<h2>Caixa: 02</h2>
+				</div>
 				<div class="clear-fixed"></div>
 			</header>
 		</div>
@@ -26,12 +38,35 @@
 						<p>Nome: Carne Assada</p>
 						<p>Preço: R$ 50,00</p>
 					</div>
-				</article>	
+				</article>
 				<div class="box-desc">
 					<h1>cupom</h1>
+				</div>
+
+				<div class="forma-pagamento">
+					<br />
+					<button class="btn btn-success">
+						<i class="fa fa-money" aria-hidden="true"></i>
+						F2 - NOV VENDA
+					</button>
+					<a href="pagamento.html">
+						<button class="btn btn-info">
+							<ion-icon name="card-outline"></ion-icon>
+							F4 - FINALIZA VENDA
+						</button>
+					</a>
+					<button class="btn btn-dark">
+						F5 - CANCELA VENDA
+					</button>
+					<a href="login.html">
+						<button class="btn btn-warning">
+							F7 - FEC. CAIXA
+						</button>
+					</a>
 				</div>
 			</main>
 		</div>
 	</div>
 </body>
+
 </html>
