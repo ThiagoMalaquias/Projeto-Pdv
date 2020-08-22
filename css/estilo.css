@@ -1,3 +1,10 @@
+:root{
+	--cor-principal: #4a88bd;
+	--cor-secundario: #044c7e;
+	--cor-gray2: #e4eaec;
+	--cor-gray3: #dde6e9;
+  }
+  
 * {
 	margin: 0px;
 	padding: 0px;
@@ -7,7 +14,7 @@
 body {
 	font-size: 16px;
 	color: #111;
-	background-color: #2E64FE;
+	background: linear-gradient(to bottom, var(--cor-principal), var(--cor-secundario) );
 }
 
 .clear-fixed {

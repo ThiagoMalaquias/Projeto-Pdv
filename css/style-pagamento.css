@@ -11,6 +11,7 @@
   list-style: none;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif !important;
+  font-size:3rem;
 }
 
 body{
@@ -78,7 +79,6 @@ a{
 
 #valores .valores .numeros span{
   float: right;
-  font-size: 1.2rem;
 }
 
 #valores .valores .total{
@@ -104,7 +104,6 @@ a{
 }
 
 #forma-pagamento table{
-  text-align: center;
   margin: 0px;
   border-bottom:1px solid #dee2e6;
 }
